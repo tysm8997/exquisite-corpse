@@ -98,8 +98,13 @@ textarea {
   body{
     background-color: whitesmoke;
     color: rgb(40, 40, 40);
+<<<<<<< HEAD
     background-image: url("..exquisite-corpse/img/taco-skull.png");
+=======
+    margin: 10px;
+>>>>>>> cff9a1344d8bcd491863a82e2af52eb0f3c61ca6
   }
+
 
 
 
