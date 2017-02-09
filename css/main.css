@@ -95,6 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  body{
+    background-color: whitesmoke;
+    color: rgb(40, 40, 40);
+  }
 
 
 
