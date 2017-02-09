@@ -10,6 +10,21 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/*
+rgb(141,55,0)
+rgb(59, 183, 71)
+rgb()
+rgb()
+rgb()
+rgb()
+rgb()
+*/
+
+
+
+
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -101,7 +116,7 @@ textarea {
     margin: 10px;
   }
 
-  
+
 
 
 
