@@ -112,26 +112,46 @@ textarea {
    rgb(255,218,98)
    rgb(240,106,42)
    rgb(0,0,0)
+   rgb(255,255,240);
+  font-family: 'Bungee', cursive;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Roboto', sans-serif;
    */
 
   body{
-    background-color: whitesmoke;
+    background-color: rgb(255,255,240);
     color: rgb(40, 40, 40);
-
     background-image: url("..exquisite-corpse/img/taco-skull.png");
-
+    font-family: 'Roboto', sans-serif;
     margin: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+
   }
 
-  
+header{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Bungee Shade', cursive;
+}
+h2{
+  font-family: 'Bungee', cursive;
+}
 
 
 .intro{
   color: rgb(243,174,34);
   text-align: center;
+  font-family: 'Bungee', cursive;
 }
 
-
+article{
+  margin-left: 20%;
+  padding: 20px;
+  width: 60%;
+}
 
 
 
