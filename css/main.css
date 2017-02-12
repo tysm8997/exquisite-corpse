@@ -112,25 +112,43 @@ textarea {
    rgb(255,218,98)
    rgb(240,106,42)
    rgb(0,0,0)
-   rgb(255,255,240);
+   rgb(255,255,240)
+   rgb(79,200,200)
+   rgba(130,250,250, 0.9)
   font-family: 'Bungee', cursive;
   font-family: 'Bungee Shade', cursive;
   font-family: 'Roboto', sans-serif;
    */
 
+html{
+  height: 100%
+}
+
+
   body{
     background-color: rgb(255,255,240);
-    color: rgb(40, 40, 40);
+    /*background-color: whitesmoke;*/
+    color: rgb(20, 20, 20);
     background-image: url("..exquisite-corpse/img/taco-skull.png");
     font-family: 'Roboto', sans-serif;
     margin: 10px;
     margin-left: 8%;
     margin-right: 8%;
 
+    background:  rgb(255,255,240);
+    background: linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 90%);
+    background: -webkit-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 90%);
+    background: -moz-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 90%);
+    background: -ms-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 90%);
+    background: -o-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 90%);
   }
 
 header{
+  position: relative;
+  bottom: 10px;
   text-align: center;
+
+
 }
 
 h1{
@@ -150,7 +168,12 @@ h2{
 article{
   margin-left: 20%;
   padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 60%;
+  background-color:rgba(130,250,250, 0.9);
+  border-radius: 15px;
+  color: black;
 }
 
 
