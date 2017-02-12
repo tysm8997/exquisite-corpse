@@ -127,6 +127,7 @@ html{
 
   body{
     background-color: rgb(255,255,240);
+
     /*background-color: whitesmoke;*/
     color: rgb(20, 20, 20);
     background-image: url("..exquisite-corpse/img/taco-skull.png");
@@ -145,12 +146,15 @@ html{
 
 header{
   position: relative;
-  bottom: 10px;
   text-align: center;
+  padding-top:125px;
+  height: 600px;
 
 
 }
-
+.button{
+    margin-top: 50px;
+}
 h1{
   font-family: 'Bungee Shade', cursive;
 }
@@ -166,7 +170,7 @@ h2{
 }
 
 article{
-  margin-left: 20%;
+margin: 10px auto 10px auto;
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
