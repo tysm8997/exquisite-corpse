@@ -3,11 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Jackie Pratt> -- <Teammate>
+    <Tyler Smerchek> -- <Teammate>
+    <Hudson Hohiner> -- <Teammate>
+    <Kimberly Preston> -- <Teammate>
+   Location: Boulder, CO, USA 
 
 # THANKS
 
-    <name>
+    <The Life, Love, and Journey of Ortega>
 
 # TECHNOLOGY COLOPHON
 
