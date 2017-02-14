@@ -1,5 +1,5 @@
 $(".button").click(function(){
-		$("*").animate({ scrollTop: 675 }, 'slow');
+		$("body").animate({ scrollTop: 675 }, 'slow');
 
 
 });
