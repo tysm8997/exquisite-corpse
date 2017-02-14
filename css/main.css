@@ -112,32 +112,24 @@ textarea {
    rgb(255,218,98)
    rgb(240,106,42)
    rgb(0,0,0)
-<<<<<<< HEAD
+
    */
 
-  body{
-    background-color: whitesmoke;
-    color: rgb(40, 40, 40);
 
   
-
-   
-  }
-
-  
-=======
+/*
    rgb(255,255,240)
    rgb(79,200,200)
    rgba(130,250,250, 0.9)
   font-family: 'Bungee', cursive;
   font-family: 'Bungee Shade', cursive;
   font-family: 'Roboto', sans-serif;
-   */
-
-html{
-  /*height: 100%*/
+  
+*/
+/*html{
+  height: 100%
 }
-
+*/
 
   body{
     background-color: rgb(255,255,240);
@@ -156,6 +148,7 @@ html{
     background: -moz-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
     background: -ms-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
     background: -o-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
+
   }
 
 header{
@@ -182,10 +175,7 @@ h2{
   font-family: 'Bungee', cursive;
 }
 
-.intro{
-  color: rgb(243,174,34);
-  text-align: center;
-}
+
 
 .intro{
   color: rgb(243,174,34);
@@ -194,6 +184,9 @@ h2{
 }
 .story{
     padding-bottom: 100px;
+    position: relative;
+    top: -700px;
+
 }
 /*article{
 margin: 10px auto 10px auto;
@@ -205,8 +198,8 @@ margin: 10px auto 10px auto;
   border-radius: 15px;
   color: black;
 }*/
-p{
-margin: 10px auto 10px auto;
+article{
+margin: 50px auto 50px auto;
 
   padding: 20px 60px 20px 60px;
 
@@ -214,26 +207,32 @@ margin: 10px auto 10px auto;
   background-color:rgba(130,250,250, 0.9);
   border-radius: 15px;
   color: black;
+  display: block;
 }
 @media only screen and (min-width: 768px) {
-p{
+article{
     width:525px;
 }
 
     }
 
 
-div.tacoback{
-    width:100%;
+.tacoback{
+    position: relative;
+    height: 700px;
+    padding-top:100px;
     background-color: white;
     background-image: url(../img/tback.jpg);
     background-size: cover;
+    background-position: center;
+    z-index: -1;
+   /* background-attachment: fixed;*/
+   
 
  
 
 
 }
-
 
 
 
