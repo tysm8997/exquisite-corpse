@@ -11,7 +11,18 @@ $(".button").click(function(){
      $(window).scroll(function(){
           
         parallax();
-       
+        // showP();
+
+      var scroll = $(window).scrollTop();
+
+	if(scroll > 1800){
+		// $(".two").css("opacity",  (1.0));
+		// $(".two").fadeIn("slow");
+		$(".two").fadeTo("slow", 1.0);
+	}
+	if(scroll > 1900){
+		$(".three").fadeTo("slow", 1.0);
+	}       
 
     });
 
@@ -32,10 +43,20 @@ function parallax(){
          $('.story').css('top', -430 + (scrolled * 0.1));
 
     // }
+}
+function showP(){
+	// var scroll = $(window).scrollTop();
 
+	// if(scroll > 1800){
+	// 	// $(".two").css("opacity",  (1.0));
+	// 	$(".two").fadeIn("slow");
+	// }
+	// if(scroll > 1820){
+	// 	$(".three").fadeIn("slow");
 
 
 }
+
 
 
 

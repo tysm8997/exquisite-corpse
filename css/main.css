@@ -250,6 +250,10 @@ article{
 .one{
 margin-bottom: 600px;
 }
+.two, .three, .four, .five, .six{
+    opacity: 0.0;
+  /*display: none;
+*/}
 
 
 
