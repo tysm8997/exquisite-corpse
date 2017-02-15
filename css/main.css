@@ -153,9 +153,10 @@ textarea {
 
 header{
   position: relative;
+ /* position: fixed;*/
   text-align: center;
-  padding-top:125px;
-  height: 600px;
+
+  height: 725px;
 
 
 }
@@ -169,6 +170,7 @@ header{
 
 
 h1{
+    padding-top:125px;
   font-family: 'Bungee Shade', cursive;
 }
 h2{
@@ -212,6 +214,7 @@ article{
 
 .tacoback{
     position: relative;
+    /*margin-top:600px;*/
     height: 600px;
     padding-top:100px;
     background-color: white;
@@ -252,6 +255,7 @@ margin-bottom: 600px;
 }
 .two, .three, .four, .five, .six{
     opacity: 0.0;
+    margin-bottom: 100px;
   /*display: none;
 */}
 
