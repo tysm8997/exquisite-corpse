@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 $(".button").click(function(){
-		$("body").animate({ scrollTop: 700 }, 'slow');
+		$("body").animate({ scrollTop: 975 }, 'slow');
 
 
 });
@@ -22,13 +22,13 @@ $(".button").click(function(){
 function parallax(){
         var scrolled = $(window).scrollTop();
         
-        // $('.tacoback').css('top', 600+ (scrolled * 0.5));
+        $('.tacoback').css('top',  (scrolled * 0.25));
         // if(scrolled < 700){
         // $('.tacoback').css('top', (scrolled * 0.45));
 
 
 
-         $('.story').css('top', -1100 + (scrolled * 0.25));
+         $('.story').css('top', -800 + (scrolled * 0.1));
 
     // }
 
