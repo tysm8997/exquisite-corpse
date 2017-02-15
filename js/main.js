@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 $(".button").click(function(){
-		$("body").animate({ scrollTop: 975 }, 'slow');
+		$("body").animate({ scrollTop: 725 }, 'slow');
 
 
 });
@@ -11,9 +11,16 @@ $(".button").click(function(){
      $(window).scroll(function(){
           
         parallax();
-        // showP();
+       
 
       var scroll = $(window).scrollTop();
+    if(scroll > 725){
+    	$("header").hide();
+    }
+    if(scroll < 725){
+    	$("header").show();
+    }
+
 
 	if(scroll > 1800){
 		$(".two").fadeTo("slow", 1.0);
@@ -34,29 +41,14 @@ $(".button").click(function(){
 function parallax(){
         var scrolled = $(window).scrollTop();
         
-        $('.tacoback').css('top',  (scrolled * 0.25));
-        // if(scrolled < 700){
-        // $('.tacoback').css('top', (scrolled * 0.45));
+        $('.tacoback').css('top', (scrolled * 0.25));
 
-
-
-         // $('.story').css('top', -1030 + (scrolled * 0.1));
-         $('.story').css('top', -430 + (scrolled * 0.1));
+         $('.story').css('top', -700 + (scrolled * 0.15));
 
     // }
 }
-function showP(){
-	// var scroll = $(window).scrollTop();
-
-	// if(scroll > 1800){
-	// 	// $(".two").css("opacity",  (1.0));
-	// 	$(".two").fadeIn("slow");
-	// }
-	// if(scroll > 1820){
-	// 	$(".three").fadeIn("slow");
 
 
-}
 
 
 

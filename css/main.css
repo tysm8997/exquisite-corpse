@@ -152,11 +152,13 @@ textarea {
   }
 
 header{
-  position: relative;
- /* position: fixed;*/
-  text-align: center;
 
+  position: fixed;
+  text-align: center;
+  margin: 0px 100px 0px 100px;
   height: 725px;
+  top:0px;
+  z-index: -2;
 
 
 }
@@ -185,6 +187,7 @@ h2{
   font-family: 'Bungee', cursive;
 }
 .story{
+    top: -700px;
     padding-bottom: 100px;
     position: relative;
  
@@ -213,11 +216,11 @@ article{
 
 
 .tacoback{
-    position: relative;
-    /*margin-top:600px;*/
-    height: 600px;
-    padding-top:100px;
-    background-color: white;
+   /* position: relative;*/
+    height: 700px;
+    /*margin-top: 725px;*/
+   
+    margin-top: 725px;
     background-image: url(../img/tback.jpg);
     background-size: cover;
     background-position: center;
@@ -233,8 +236,7 @@ article{
 .gif{
     position: relative;
     height: 600px;
-   /* top:3000px;*/
-  /*  padding-top:100px;*/
+
     background-color: white;
     background-image: url(../img/giphy.gif);
     background-size: cover;
@@ -256,8 +258,8 @@ margin-bottom: 600px;
 .two, .three, .four, .five, .six{
     opacity: 0.0;
     margin-bottom: 100px;
-  /*display: none;
-*/}
+ 
+}
 
 
 
