@@ -22,15 +22,26 @@ $(".button").click(function(){
     }
 
 
-	if(scroll > 1800){
+	if(scroll > 975){
 		$(".two").fadeTo("slow", 1.0);
 	}
-	if(scroll > 1950){
+	if(scroll > 1500){
 		$(".three").fadeTo("slow", 1.0);
-		$(".four").delay(1000).fadeTo("slow", 1.0);
-		$(".five").delay(3000).fadeTo("slow", 1.0);
-		$(".six").delay(5000).fadeTo("slow", 1.0);
-	}       
+	}   
+	if(scroll > 1850){
+		$(".four").fadeTo("slow", 1.0);
+	}
+	if(scroll > 2550){
+		$(".five").fadeTo("slow", 1.0);
+	}
+	if(scroll > 3000){
+		$(".six").fadeTo("slow", 1.0);		
+	}
+
+			// $(".four").delay(1000).fadeTo("slow", 1.0);
+		// $(".five").delay(3000).fadeTo("slow", 1.0);
+		// $(".six").delay(5000).fadeTo("slow", 1.0);
+
 
     });
 
