@@ -188,13 +188,10 @@ h2{
  
 
 }
+
+
+
 article{
-/*height:900px;*/
-
-}
-
-
-p{
 margin: 50px auto 50px auto;
 
   padding: 20px 60px 20px 60px;
@@ -206,7 +203,7 @@ margin: 50px auto 50px auto;
   display: block;
 }
 @media only screen and (min-width: 768px) {
-p{
+article{
     width:525px;
 }
 
@@ -215,7 +212,7 @@ p{
 
 .tacoback{
     position: relative;
-    height: 900px;
+    height: 600px;
     padding-top:100px;
     background-color: white;
     background-image: url(../img/tback.jpg);
@@ -230,12 +227,29 @@ p{
 
 }
 
+.gif{
+    position: relative;
+    height: 600px;
+   /* top:3000px;*/
+  /*  padding-top:100px;*/
+    background-color: white;
+    background-image: url(../img/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /*background-attachment: fixed;*/
+   
+
+ 
+
+
+}
+
 /*articles*/
 
 .one{
-    height:700px;
+margin-bottom: 600px;
 }
-
 
 
 

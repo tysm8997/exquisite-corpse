@@ -28,7 +28,8 @@ function parallax(){
 
 
 
-         $('.story').css('top', -800 + (scrolled * 0.1));
+         // $('.story').css('top', -1030 + (scrolled * 0.1));
+         $('.story').css('top', -430 + (scrolled * 0.1));
 
     // }
 
