@@ -112,32 +112,29 @@ textarea {
    rgb(255,218,98)
    rgb(240,106,42)
    rgb(0,0,0)
-<<<<<<< HEAD
+
    */
 
-  body{
-    background-color: whitesmoke;
-    color: rgb(40, 40, 40);
 
-    background-image: url("..exquisite-corpse/img/taco-skull.png");
-
-    margin: 10px;
-  }
-
+<<<<<<< HEAD
 
 =======
+=======
+  
+/*
+>>>>>>> 0c0c4194e97fadb67a55e82cbf56fc60fd22ec10
    rgb(255,255,240)
    rgb(79,200,200)
    rgba(130,250,250, 0.9)
   font-family: 'Bungee', cursive;
   font-family: 'Bungee Shade', cursive;
   font-family: 'Roboto', sans-serif;
-   */
-
-html{
-  /*height: 100%*/
+  
+*/
+/*html{
+  height: 100%
 }
-
+*/
 
   body{
     background-color: rgb(255,255,240);
@@ -146,9 +143,9 @@ html{
     color: rgb(20, 20, 20);
     background-image: url("..exquisite-corpse/img/taco-skull.png");
     font-family: 'Roboto', sans-serif;
-    margin: 10px;
+/*    margin: 10px;
     margin-left: 8%;
-    margin-right: 8%;
+    margin-right: 8%;*/
 
     background:  rgb(255,255,240);
     background: linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
@@ -156,6 +153,7 @@ html{
     background: -moz-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
     background: -ms-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
     background: -o-linear-gradient(top,  rgb(255,255,240) 2%,rgb(243,174,34) 80%);
+
   }
 
 header{
@@ -182,10 +180,7 @@ h2{
   font-family: 'Bungee', cursive;
 }
 
-.intro{
-  color: rgb(243,174,34);
-  text-align: center;
-}
+
 
 .intro{
   color: rgb(243,174,34);
@@ -194,18 +189,48 @@ h2{
 }
 .story{
     padding-bottom: 100px;
+    position: relative;
+ 
+
 }
 article{
-margin: 10px auto 10px auto;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+/*height:900px;*/
+
+}
+
+
+p{
+margin: 50px auto 50px auto;
+
+  padding: 20px 60px 20px 60px;
+
   width: 60%;
   background-color:rgba(130,250,250, 0.9);
   border-radius: 15px;
   color: black;
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+p{
+    width:525px;
 }
 
+    }
+
+
+.tacoback{
+    position: relative;
+    height: 900px;
+    padding-top:100px;
+    background-color: white;
+    background-image: url(../img/tback.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /*background-attachment: fixed;*/
+   
+
+ 
 
 .button{
 color: rgba(0, 0, 0, 0.0);
@@ -215,6 +240,7 @@ color: rgba(0, 0, 0, 0.0);
   opacity: 0.5;
 }
 
+<<<<<<< HEAD
 .arrow{
   z-index: -10;
 }
@@ -232,6 +258,14 @@ i:hover{
   /*opacity: 0.9;*/
   z-index: 20;
   ;
+=======
+}
+
+/*articles*/
+
+.one{
+    height:700px;
+>>>>>>> 0c0c4194e97fadb67a55e82cbf56fc60fd22ec10
 }
 
 
