@@ -167,6 +167,7 @@ header{
     color:rgba(130,250,250, 1);
     width:150px;
     margin: 0px auto 0px auto;
+    padding-left: 158px;
     /*background-image: url(img/taco.png);*/
 }
 
@@ -178,12 +179,14 @@ h1{
 }
 h2{
   font-family: 'Bungee', cursive;
+  padding-left: 158px;
 }
 
 
 
 .intro{
   color: rgb(243,174,34);
+  padding-left: 158px;
   text-align: center;
   font-family: 'Bungee', cursive;
 }
