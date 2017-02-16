@@ -116,7 +116,7 @@ textarea {
    */
 
 
-  
+
 /*
    rgb(255,255,240)
    rgb(79,200,200)
@@ -124,7 +124,7 @@ textarea {
   font-family: 'Bungee', cursive;
   font-family: 'Bungee Shade', cursive;
   font-family: 'Roboto', sans-serif;
-  
+
 */
 /*html{
   height: 100%
@@ -171,7 +171,7 @@ header{
     /*background-image: url(img/taco.png);*/
 }
 /*#arrow{
-  
+
     display:none;
 }
 #arrow:hover{
@@ -208,7 +208,7 @@ h2{
     top: -700px;
     padding-bottom: 100px;
     position: relative;
- 
+
 
 }
 
@@ -237,20 +237,20 @@ article{
    /* position: relative;*/
     height: 700px;
     /*margin-top: 725px;*/
-   
+
     margin-top: 725px;
     background-image: url(../img/tback.jpg);
     background-size: cover;
     background-position: center;
     z-index: -1;
     /*background-attachment: fixed;*/
-   
+
 }
 
  .tacoback2{
     height: 700px;
     /*margin-top: 725px;*/
-   
+
     margin-top: 500px;
     background-image: url(../img/tacoboutit.png);
     background-size: 18%;
@@ -261,7 +261,7 @@ article{
  .tacoback3{
     height: 700px;
     /*margin-top: 725px;*/
-   
+
     margin-top: 500px;
     background-image: url(../img/taco-couple.png);
     background-size: cover;
@@ -281,9 +281,9 @@ article{
     background-position: center;
     z-index: -1;
     /*background-attachment: fixed;*/
-   
 
- 
+
+
 
 
 }
@@ -296,7 +296,7 @@ margin-bottom: 400px;
 .two, .three, .four, .five, .six{
     opacity: 0.0;
     margin-bottom: 100px;
- 
+
 }
 
 
