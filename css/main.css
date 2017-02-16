@@ -142,14 +142,14 @@ textarea {
 
 
   header{
-    position: absolute;;
+    position: fixed;
     text-align: center;
     /*margin: 0px 100px 0px 100px;*/
     right: 20%;
     width: 60%;
     height: 725px;
     top:0px;
-    z-index: +2;
+    z-index: -2;
 
 
 }
