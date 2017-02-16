@@ -263,33 +263,27 @@ p{
     z-index: -1;
  }
 
+/*Working on TacoIcons*/
 
-
-.button:hover{
-  opacity: 0.5;
+.top{
+  position:absolute;;
+  z-index: 10;
 }
 
-
-
-.arrow{
+.bottom{
+  position: relative;
+  /*bottom: 72px;*/
   z-index: -10;
 }
 
-
-
-i{
-  position: relative;
-  bottom: 80px;
+/*.bottom:hover{
   z-index: 20;
-  /*color: rgba(0, 0, 0, 0.0);*/
-  /*width: 120px;*/
+  background-color: blue;
 }
-i:hover{
-  color: rgba(130,250,250,1);
-  /*opacity: 0.9;*/
-  z-index: 20;
-  ;
-}
+.top:hover{
+  z-index: -20;
+  background-color: red;
+}*/
 
 /*articles*/
 
