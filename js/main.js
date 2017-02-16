@@ -43,6 +43,9 @@ $(".button").click(function(){
 	if(scroll > 3800){
 		$(".six").fadeTo("slow", 1.0);
 	}
+	if(scroll > 4200){
+		$(".gif").fadeTo("slow", 1.0);
+	}
 
 
 

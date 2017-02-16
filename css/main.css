@@ -249,6 +249,12 @@ article{
     background-position: center;
     z-index: -1;
  }
+ .gif{
+  height:500px;
+    background-image: url(../img/giphy.gif);
+    background-size: cover;
+    background-position: center;
+ }
 
 /*Working on TacoIcons*/
 
@@ -277,7 +283,7 @@ article{
 .one{
 margin-bottom: 400px;
 }
-.two, .three, .four, .five, .six{
+.two, .three, .four, .five, .six, .gif{
     opacity: 0.0;
     margin-bottom: 100px;
   /*  height:700px;*/
@@ -289,6 +295,7 @@ footer{
   font-size: .6em;
   margin-left: 30%;
   width: 30%;
+  padding-bottom: 75px;
 }
 
 
