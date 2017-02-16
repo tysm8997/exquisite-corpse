@@ -231,11 +231,31 @@ article{
     z-index: -1;
     /*background-attachment: fixed;*/
    
-
- 
-
-
 }
+
+ .tacoback2{
+    height: 700px;
+    /*margin-top: 725px;*/
+   
+    margin-top: 500px;
+    background-image: url(../img/tacoboutit.png);
+    background-size: 18%;
+    background-position: center;
+    z-index: -1;
+ }
+
+ .tacoback3{
+    height: 700px;
+    /*margin-top: 725px;*/
+   
+    margin-top: 500px;
+    background-image: url(../img/taco-couple.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+ }
+
+
 
 .gif{
     position: relative;
