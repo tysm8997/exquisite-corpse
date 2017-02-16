@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 $(".button").click(function(){
-		$("body").animate({ scrollTop: 975 }, 'slow');
+		$("body").animate({ scrollTop: 725 }, 'slow');
 
 
 });
@@ -12,6 +12,36 @@ $(".button").click(function(){
           
         parallax();
        
+
+      var scroll = $(window).scrollTop();
+    if(scroll > 725){
+    	$("header").hide();
+    }
+    if(scroll < 725){
+    	$("header").show();
+    }
+
+
+	if(scroll > 975){
+		$(".two").fadeTo("slow", 1.0);
+	}
+	if(scroll > 1500){
+		$(".three").fadeTo("slow", 1.0);
+	}   
+	if(scroll > 1850){
+		$(".four").fadeTo("slow", 1.0);
+	}
+	if(scroll > 2550){
+		$(".five").fadeTo("slow", 1.0);
+	}
+	if(scroll > 3000){
+		$(".six").fadeTo("slow", 1.0);		
+	}
+
+			// $(".four").delay(1000).fadeTo("slow", 1.0);
+		// $(".five").delay(3000).fadeTo("slow", 1.0);
+		// $(".six").delay(5000).fadeTo("slow", 1.0);
+
 
     });
 
@@ -22,19 +52,15 @@ $(".button").click(function(){
 function parallax(){
         var scrolled = $(window).scrollTop();
         
-        $('.tacoback').css('top',  (scrolled * 0.25));
-        // if(scrolled < 700){
-        // $('.tacoback').css('top', (scrolled * 0.45));
+        $('.tacoback').css('top', (scrolled * 0.25));
 
-
-
-         $('.story').css('top', -800 + (scrolled * 0.1));
+         $('.story').css('top', -700 + (scrolled * 0.15));
 
     // }
-
-
-
 }
+
+
+
 
 
 
