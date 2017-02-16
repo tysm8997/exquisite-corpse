@@ -28,19 +28,19 @@ $(".button").click(function(){
     }
 
 
-	if(scroll > 975){
+	if(scroll > 1500){
 		$(".two").fadeTo("slow", 1.0);
 	}
-	if(scroll > 1500){
+	if(scroll > 1700){
 		$(".three").fadeTo("slow", 1.0);
 	}   
-	if(scroll > 1850){
+	if(scroll > 2650){
 		$(".four").fadeTo("slow", 1.0);
 	}
-	if(scroll > 2550){
+	if(scroll > 3300){
 		$(".five").fadeTo("slow", 1.0);
 	}
-	if(scroll > 3000){
+	if(scroll > 3800){
 		$(".six").fadeTo("slow", 1.0);		
 	}
 
