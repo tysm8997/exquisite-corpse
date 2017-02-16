@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+// $(".button").hover(function(){
+// 	$("#taco").css("opacity", "0.0");
+// }, function(){
+// 	$("#arrow").css("opacity", "1.0");
+// 	});
+
 
 
 $(".button").click(function(){
@@ -38,9 +44,7 @@ $(".button").click(function(){
 		$(".six").fadeTo("slow", 1.0);		
 	}
 
-			// $(".four").delay(1000).fadeTo("slow", 1.0);
-		// $(".five").delay(3000).fadeTo("slow", 1.0);
-		// $(".six").delay(5000).fadeTo("slow", 1.0);
+
 
 
     });

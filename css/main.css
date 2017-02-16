@@ -169,6 +169,20 @@ header{
     margin: 0px auto 0px auto;
     /*background-image: url(img/taco.png);*/
 }
+/*#arrow{
+  
+    display:none;
+}
+#arrow:hover{
+    display:block;
+}
+#taco{
+
+    display:block;
+}
+#taco:hover{
+   display:none;
+}*/
 
 
 h1{
